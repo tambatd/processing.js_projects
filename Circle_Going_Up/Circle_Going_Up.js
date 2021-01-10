@@ -75,4 +75,16 @@ function draw() {
         circle(500-x+x2_coordinate, 250+y2_coordinate, 5);
         }
       }
+   circle(250, 500-y, 10);
+    for (i = 0; i < 361; i+=5) {
+      //console.log(i);
+      if (i%10 == 0){
+        var x3_coordinate = sin(i)*25;
+        var y3_coordinate = cos(i)*25;
+        circle(250+x3_coordinate, 500-y+y3_coordinate, 5);
+        }
+      }
+      
+   //ANGULAR CIRCLE START
+  //saveFrames();
   } 
